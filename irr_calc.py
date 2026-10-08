@@ -1,5 +1,9 @@
 import numpy_financial as npf
 
-Solution = npf.irr([-1000, 300, 400, 500])
+def irr_calculation(values):
+    result = npf.irr(values)
 
-print("Solution - Internal Rate of Return : ", Solution) 
+    if result is None:
+        raise ValueError("IRR could not be calculated")
+    return float(result)
+
