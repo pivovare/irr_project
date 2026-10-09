@@ -8,3 +8,10 @@ __pycache__/
 
 # Настройки VS Code
 .vscode/
+
+# Секреты
+.env
+
+# Результаты тестов и логи
+unit_test_results.txt
+*.log
