@@ -1,4 +1,5 @@
-Set-Location $PSScriptRoot
+$ProjectPath = "C:\mirea\devops\irr_project_1"
+Set-Location $ProjectPath
 
 git switch main
 
