@@ -5,5 +5,5 @@ def irr_calculation(values):
 
     if result is None:
         raise ValueError("IRR could not be calculated")
-    return float(result)
+    return float(result) + 0.1
 
